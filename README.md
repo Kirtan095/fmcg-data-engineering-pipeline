@@ -75,3 +75,4 @@ The dataset contains FMCG sales records such as:
 Through this project, I learned how data engineering pipelines work in practice.
 I improved my skills in Python, SQL, handling structured data, and organizing
 projects in a clean and readable format.
+
