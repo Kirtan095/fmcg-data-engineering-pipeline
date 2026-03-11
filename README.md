@@ -1,16 +1,23 @@
-# FMCG Sales Data Engineering Project
+**FMCG Sales Data Engineering Project**
 
-## About the Project
-This project is a basic FMCG sales data engineering project that I created to
-understand how raw business data is handled in a real-world scenario.
+**About the Project**
 
-The main idea of this project is to take raw FMCG sales data from CSV files,
-clean and process it using Python, store it in a database, and then analyze it
-using SQL queries.
+The following is an example of an end-to-end data engineering pipeline created for FMCG sales data. This pipeline has been created for processing FMCG sales data, and the data is cleaned and transformed using Python for further analysis.
 
----
+The following are some of the key aspects of this data pipeline:
 
-## Folder Structure
+- Data ingestion and preprocessing using Python
+- Data transformation and cleaning for further analysis
+- SQL-based data querying and analysis
+- Workflow of the data pipeline for data processing
+- Generation of insights from FMCG sales data
+
+The following are some of the technologies used for creating this data pipeline:
+
+Python, SQL, Pandas, Data Engineering concepts
+
+**Folder Structure**
+
 The project is organized in a simple and clear way:
 
 data/
@@ -33,9 +40,8 @@ sql_queries/
 
 README.md
 
----
+**Tools Used**
 
-## Tools Used
 - Python (Pandas, NumPy)
 - SQLite for database
 - SQL for analysis
@@ -44,7 +50,8 @@ README.md
 
 ---
 
-## How the Data Pipeline Works
+**How the Data Pipeline Works**
+
 1. First, raw sales data is read from CSV files.
 2. Then the data is cleaned and processed using Python scripts.
 3. After cleaning, the data is loaded into an SQLite database.
@@ -52,26 +59,24 @@ README.md
 
 This helped me understand the complete ETL flow in a simple way.
 
----
+**Analysis Done**
 
-## Analysis Done
 - Basic data cleaning
 - Product-wise sales analysis
 - Region-wise sales performance
 - Simple SQL queries for insights
 
----
+**Dataset Information**
 
-## Dataset Information
 The dataset contains FMCG sales records such as:
+
 - Product details
 - Store and region information
 - Quantity sold
 - Sales revenue
 
----
+**What I Learned**
 
-## What I Learned
-Through this project, I learned how data engineering pipelines work in practice.
-I improved my skills in Python, SQL, handling structured data, and organizing
+Through this project, I learned how data engineering pipelines work in practice.  
+I improved my skills in Python, SQL, handling structured data, and organizing  
 projects in a clean and readable format.
